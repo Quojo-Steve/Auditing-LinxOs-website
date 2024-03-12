@@ -1,0 +1,23 @@
+const groupMembers = [
+  { name: "Ashafa Ahmed", index_number: "0320080067" },
+  { name: "Amogu Emmanuel Ugbaja", index_number: "0320080227" },
+  { name: "Gidi Julius Delali", index_number: "0320080218" },
+  { name: "Wetsi winner", index_number: "0320080036" },
+  { name: "Ahama Doxa Collins", index_number: "0320080200" },
+  { name: "Aidoo Emmanuel Jnr", index_number: "0320080168" },
+  { name: "Kludze Anku Christopher", index_number: "0320080092" },
+  { name: "Dzobo Linda Sewornu", index_number: "0320080107" },
+  { name: "Grace Ansah-Addo", index_number: "0320080111" },
+  { name: "Ayisi David", index_number: "0320080095" },
+  { name: "Dzaikah Wonder", index_number: "0320080189" },
+  { name: "Akyea Kingsley Mensah", index_number: "0320080192" },
+  { name: "Mathias Bienu", index_number: "0320080108" },
+  { name: "Dodoh Emmanuel", index_number: "0320080122" },
+  { name: "Osabutey Desmond Kwabena", index_number: "0320080002" },
+  { name: "Kumadey Bernard", index_number: "0320080140" },
+  { name: "Prosper Noanyikpo", index_number: "0320080208" },
+  { name: "nkrow jerome", index_number: "0320150013" },
+  { name: "Owusu Dankwah Prince", index_number: "0320040011" },
+  { name: "Atsu oliver", index_number: "0320080014" },
+];
+export default groupMembers;

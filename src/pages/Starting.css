@@ -1,0 +1,13 @@
+.background{
+    background: url("../assets/background.jpg");
+    filter: brightness(110%) contrast(120%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.342);
+}
+.background2{
+    background: rgba(255, 255, 255, 0.534);
+}
