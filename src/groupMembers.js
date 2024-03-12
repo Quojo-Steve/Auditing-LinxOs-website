@@ -19,5 +19,6 @@ const groupMembers = [
   { name: "nkrow jerome", index_number: "0320150013" },
   { name: "Owusu Dankwah Prince", index_number: "0320040011" },
   { name: "Atsu oliver", index_number: "0320080014" },
+  { name: "Alabi Leslie", index_number: "0320080061" },
 ];
 export default groupMembers;
