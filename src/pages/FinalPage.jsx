@@ -1,5 +1,7 @@
 import React from "react";
-import { IoBagHandle, IoPieChart, IoPeople, IoCart } from "react-icons/io5";
+import { RiLockPasswordLine } from "react-icons/ri";
+import { FaFileArchive } from "react-icons/fa";
+import { MdNetworkWifi, MdStorage, MdOutlineSecurity } from "react-icons/md";
 
 const FinalPage = ({ groupMembers }) => {
   // Retrieve answers from local storage
@@ -46,7 +48,7 @@ const FinalPage = ({ groupMembers }) => {
       <div className="flex lg:gap-4 gap-1 md:gap-3 w-full flex-wrap">
         <BoxWrapper>
           <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
-            <IoBagHandle className="text-2xl text-white" />
+            <RiLockPasswordLine className="text-2xl text-white" />
           </div>
           <div className="pl-4">
             <span className="text-sm text-gray-500 font-normal">
@@ -64,7 +66,7 @@ const FinalPage = ({ groupMembers }) => {
         </BoxWrapper>
         <BoxWrapper>
           <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
-            <IoBagHandle className="text-2xl text-white" />
+            <FaFileArchive className="text-2xl text-white" />
           </div>
           <div className="pl-4">
             <span className="text-sm text-gray-500 font-normal">
@@ -82,7 +84,7 @@ const FinalPage = ({ groupMembers }) => {
         </BoxWrapper>
         <BoxWrapper>
           <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
-            <IoBagHandle className="text-2xl text-white" />
+            <MdNetworkWifi className="text-2xl text-white" />
           </div>
           <div className="pl-4">
             <span className="text-sm text-gray-500 font-normal">
@@ -100,7 +102,7 @@ const FinalPage = ({ groupMembers }) => {
         </BoxWrapper>
         <BoxWrapper>
           <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
-            <IoBagHandle className="text-2xl text-white" />
+            <MdStorage className="text-2xl text-white" />
           </div>
           <div className="pl-4">
             <span className="text-sm text-gray-500 font-normal">
@@ -118,7 +120,7 @@ const FinalPage = ({ groupMembers }) => {
         </BoxWrapper>
         <BoxWrapper>
           <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
-            <IoBagHandle className="text-2xl text-white" />
+            <MdOutlineSecurity className="text-2xl text-white" />
           </div>
           <div className="pl-4">
             <span className="text-sm text-gray-500 font-normal">
