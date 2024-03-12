@@ -18,7 +18,7 @@ const Starting = () => {
 
   return (
     <motion.div
-      className="background flex flex-col items-center justify-center h-screen overflow-hidden text-white"
+      className="background flex flex-col items-center justify-center overflow-hidden text-white"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
