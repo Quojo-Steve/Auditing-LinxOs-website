@@ -65,7 +65,7 @@ const FinalPage = ({ groupMembers }) => {
           </div>
         </BoxWrapper>
         <BoxWrapper>
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
+          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-purple-500">
             <FaFileArchive className="text-2xl text-white" />
           </div>
           <div className="pl-4">
@@ -83,7 +83,7 @@ const FinalPage = ({ groupMembers }) => {
           </div>
         </BoxWrapper>
         <BoxWrapper>
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
+          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-yellow-500">
             <MdNetworkWifi className="text-2xl text-white" />
           </div>
           <div className="pl-4">
@@ -101,7 +101,7 @@ const FinalPage = ({ groupMembers }) => {
           </div>
         </BoxWrapper>
         <BoxWrapper>
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
+          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-pink-500">
             <MdStorage className="text-2xl text-white" />
           </div>
           <div className="pl-4">
@@ -119,7 +119,7 @@ const FinalPage = ({ groupMembers }) => {
           </div>
         </BoxWrapper>
         <BoxWrapper>
-          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-sky-500">
+          <div className="rounded-full h-12 w-12 flex items-center justify-center bg-green-500">
             <MdOutlineSecurity className="text-2xl text-white" />
           </div>
           <div className="pl-4">
