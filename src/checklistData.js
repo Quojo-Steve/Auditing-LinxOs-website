@@ -64,15 +64,14 @@ const checklistData = [
 
     question:
       "Ensure that invalid shells have been placed on all disabled accounts.",
-    hint: "Examine the organization's privilege escalation policy",
+    hint: "Check the organization's privilege escalation policy and review the procedures for managing disabled accounts. Look for guidelines or documentation regarding the assignment of invalid shells to disabled accounts as part of security measures.",
   },
   {
     // 9
     title: "Auditing Account Management and Password Controls",
-
     question:
-      " Review and evaluate the use of groups, and determine the restrictiveness of their use and evaluate the use of passwords at the group level.",
-    hint: "Examine the organization's privilege escalation policy",
+      "Review and evaluate the use of groups, and determine the restrictiveness of their use and evaluate the use of passwords at the group level.",
+    hint: "Inspect the organization's privilege escalation policy to understand the guidelines regarding group management and password usage at the group level. Look for documentation or procedures outlining the appropriate usage of groups, including their restrictiveness and the enforcement of password policies within groups.",
   },
 
   // file auditing
