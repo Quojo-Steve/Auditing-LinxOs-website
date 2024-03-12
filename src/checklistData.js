@@ -70,8 +70,8 @@ const checklistData = [
     // 9
     title: "Auditing Account Management and Password Controls",
     question:
-      "Review and evaluate the use of groups, and determine the restrictiveness of their use and evaluate the use of passwords at the group level.",
-    hint: "Inspect the organization's privilege escalation policy to understand the guidelines regarding group management and password usage at the group level. Look for documentation or procedures outlining the appropriate usage of groups, including their restrictiveness and the enforcement of password policies within groups.",
+      "Evaluate usage of passwords at the group level.",
+    hint: "Review the contents of the group file(s) by using more /etc/group for the local file. If the groups have anything other than a common character (such as an “*” or even nothing) in the password field, passwords are being used. If group-level passwords are being used, speak to the system administrators to understand the purpose and value of using such passwords, and review the process for restricting knowledge of these passwords.",
   },
 
   // file auditing
